@@ -8,6 +8,9 @@
     "server": "nodemon backend/server.js",
     "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\""
+  },"repository": {
+    "type": "git",
+    "url": "git+https://github.com/AudreyLin/CRM_MVP.git"
   },
   "keywords": [
     "CRM",
