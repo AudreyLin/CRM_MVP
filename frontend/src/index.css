@@ -57,6 +57,13 @@
   /*  Font Families    */
   /*-------------------*/
   --ff-sans-poppins: 'poppins', sans-serif;
+
+  /*------------------*/
+  /*     gap         */
+  /*-----------------*/
+  --gap: 15px;
+  --grid-gap: 15px;
+  --text-gap: 10px;
 }
 
 /*Creating a Dark Theme*/
@@ -96,6 +103,7 @@ picture {
 }
 
 body {
+  background-color: var(--lavendar-web);
   font-family: var(--ff-sans-poppins);
   font-size: var(--fs-400);
   min-height: 100vh;
@@ -160,7 +168,7 @@ select {
 .container {
   padding-inline: 0 2em;
   margin-inline: auto;
-  max-width: 80rem;
+  max-width: 45rem;
 }
 
 .uppercase {
@@ -203,7 +211,13 @@ section {
 }
 
 .heroContent {
-  position: relative;
+  padding: 10%;
+  width: min(100% - 2rem, 950px);
+  line-height: 1.5;
+}
+
+.heroSection h1 h2 {
+  font-size: clamp(40px, 5vw, 30px);
 }
 
 /* -----End Hero Section ----- */

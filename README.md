@@ -16,7 +16,6 @@ Client Relationship management demo project
   - project features
   - client requests
   - existing project or new project
-  - branding and themeing
   - user stories
   - task pipelines
   - task management kanban
@@ -48,12 +47,13 @@ Client Relationship management demo project
 
 1. [Generate your favicon files](https://realfavicongenerator.net/)
 2. Extract the package download into "./frontend/public" directory
-3. Insert the given code into the head section of the "./frontend/public/index.html" file
+3. Insert the given code into the head section of the
+   "./frontend/public/index.html" file
 
 ## DotEnv & Environment Variables
 
--[DotENV NPM](https://www.npmjs.com/package/dotenv)
-Create a .env file in '/backend/config'. (be sure to add it to .gitignore).
+-[DotENV NPM](https://www.npmjs.com/package/dotenv) Create a .env file in
+'/backend/config'. (be sure to add it to .gitignore).
 
 ## Install dependencies
 
@@ -79,4 +79,5 @@ npm install
 
 ## Proxying API requests
 
-(Proxying API requests in development)[https://create-react-app.dev/docs/proxying-api-requests-in-development/]
+(Proxying API requests in
+development)[https://create-react-app.dev/docs/proxying-api-requests-in-development/]

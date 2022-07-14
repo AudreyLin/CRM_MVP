@@ -10,7 +10,7 @@ import Button from '../../shared/formElements/Button';
 //Terms and conditions
 //Remember Me
 
-const Login = () => {
+const Login = (props) => {
   return (
     <div className='formStyle'>
       <form>
